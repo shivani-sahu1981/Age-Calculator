@@ -13,10 +13,10 @@ body{
 #container{
     width: 400px;
     height: 300px;
-    background-color: white;
-    border-radius: 20px;
+    border-radius: 40px 5px;
     text-align: center;
     padding-top: 50px;
+    box-shadow: 0 0 50px white;
 }
 h1{
     color: brown;
@@ -26,4 +26,45 @@ h1{
 }
 .form{
     padding-top: 20px;
+}
+label{
+    font-size: larger;
+    color: white;
+    font-weight: 800;
+    padding-right: 10px;
+}
+
+#birthday{
+    width: 120px;
+    height: 25px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    background-color: rgb(139, 135, 135);
+}
+
+button{
+    width: 120px;
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 40px 5px;
+    border: 2px solid;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(139, 135, 135);
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 40px white;
+}
+
+#result{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
 }
